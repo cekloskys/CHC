@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chc.MainActivity">
+    <item
+        android:id="@+id/action_add_student"
+        android:title="@string/action_add_student"
+        app:showAsAction="always"
+        android:onClick="addStudent"/>
+    <item
+        android:id="@+id/action_get_count_cis"
+        android:orderInCategory="1"
+        android:title="@string/action_get_count_cis"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_get_count_cit"
+        android:orderInCategory="2"
+        android:title="@string/action_get_count_cit"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_get_count_csm"
+        android:orderInCategory="3"
+        android:title="@string/action_get_count_csm"
+        app:showAsAction="never" />
+</menu>

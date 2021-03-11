@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CHC</string>
+    <string name="action_get_count_cis">CIS Count</string>
+    <string name="action_get_count_cit">CIT Count</string>
+    <string name="action_get_count_csm">CSM Count</string>
+    <string name="action_add_student">Add Student</string>
+    <string-array name="year">
+        <item></item>
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+    <string-array name="major">
+        <item></item>
+        <item>CIS</item>
+        <item>CIT</item>
+        <item>CSM</item>
+    </string-array>
+</resources>
